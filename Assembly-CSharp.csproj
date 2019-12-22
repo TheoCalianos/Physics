@@ -55,9 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AddForce.cs" />
+     <Compile Include="Assets\Scripts\FluidDrag.cs" />
+     <Compile Include="Assets\Scripts\Gravitationalconstant.cs" />
      <Compile Include="Assets\Scripts\Mouseorbit2.cs" />
      <Compile Include="Assets\Scripts\PhysicsEngine.cs" />
+     <Compile Include="Assets\Scripts\RocketEngine.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Theo calianos/Desktop/unity projects/Physics/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

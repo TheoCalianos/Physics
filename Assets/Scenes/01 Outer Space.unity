@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 488814046}
   - component: {fileID: 488814047}
   m_Layer: 0
-  m_Name: Ball
+  m_Name: Ball 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,8 +228,8 @@ MonoBehaviour:
   velocityVector: {x: 0, y: 0, z: 0}
   accelerationVector: {x: 0, y: 0, z: 0}
   netForceVector: {x: 0, y: 0, z: 0}
-  showTrails: 1
-  mass: 6
+  showTrails: 0
+  mass: 2000000
 --- !u!114 &488814047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,7 +242,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c19efc2960fca9409cd8a3167a60b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceVector: {x: 0, y: 0, z: 0}
+  fuelMass: 1000
+  maxThrust: 2278
+  thrustPercent: 0.226
+  thrustUnitVector: {x: 0, y: 1, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

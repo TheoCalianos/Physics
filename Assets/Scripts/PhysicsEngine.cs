@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class PhysicsEngine : MonoBehaviour
 {
-    public Vector3 velocityVector;
-    public Vector3 accelerationVector;
-    public Vector3 netForceVector;
+    public Vector3 velocityVector;    //m per sec
+    public Vector3 accelerationVector; //f/m
+    public Vector3 netForceVector;  //N (kg m/s^2)
     public bool showTrails = true;
-    public float mass;
+    public float mass;    //kg
+
     private List<Vector3> forceVectorList = new List<Vector3>();
     private int numberOfForces;
   	private LineRenderer lineRenderer;
+
     void Start()
     {
       GenerateLine();
