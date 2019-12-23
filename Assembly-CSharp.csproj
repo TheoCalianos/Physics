@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\FluidDrag.cs" />
      <Compile Include="Assets\Scripts\Gravitationalconstant.cs" />
+     <Compile Include="Assets\Scripts\Launcher.cs" />
      <Compile Include="Assets\Scripts\Mouseorbit2.cs" />
      <Compile Include="Assets\Scripts\PhysicsEngine.cs" />
      <Compile Include="Assets\Scripts\RocketEngine.cs" />
